@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-go
+  description: gilan microservice
+  annotations: 
+    github.com/project-slug: kedde/go-micro
+    backstage.io/source-ref: "https://github.com/kedde/go-micro"
+    backstage.io/techdocs-ref: url:https://github.com/kedde/go-micro
+    backstage.io/github-actions-id: https://github.com/kedde/go-micro
+spec:
+  type: service
+  lifecycle: experimental
+  owner: kedde
