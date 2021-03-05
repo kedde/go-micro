@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test-go
-  description: gilan microservice
+  description: gilan microservice kedde
   annotations: 
     github.com/project-slug: kedde/go-micro
     backstage.io/source-ref: "https://github.com/kedde/go-micro"
